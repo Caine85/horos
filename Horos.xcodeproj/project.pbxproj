@@ -406,8 +406,11 @@
 		59FB643C1230EE4100EBA136 /* libpng12OsiriX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 59FB64371230EE4100EBA136 /* libpng12OsiriX.a */; };
 		59FB64DD1231295400EBA136 /* NSUserDefaultsController+N2.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5997899111B7B48E002DB107 /* NSUserDefaultsController+N2.mm */; };
 		59FB654F12312D8900EBA136 /* weasis in Resources */ = {isa = PBXBuildFile; fileRef = 59FB652912312D8900EBA136 /* weasis */; };
-		5F92186023F45593000B8754 /* dcmprscu in Resources */ = {isa = PBXBuildFile; fileRef = 5F92185F23F45592000B8754 /* dcmprscu */; };
-		5F92186223F455A8000B8754 /* dcmpsprt in Resources */ = {isa = PBXBuildFile; fileRef = 5F92186123F455A8000B8754 /* dcmpsprt */; };
+		5F6A427323FEF4470017C59F /* dcmprscu in Resources */ = {isa = PBXBuildFile; fileRef = 5F6A427123FEF4460017C59F /* dcmprscu */; };
+		5F6A427423FEF4470017C59F /* dcmpsprt in Resources */ = {isa = PBXBuildFile; fileRef = 5F6A427223FEF4460017C59F /* dcmpsprt */; };
+		5F6A427823FEF4B10017C59F /* dcmdump in Resources */ = {isa = PBXBuildFile; fileRef = 5F6A427523FEF4AF0017C59F /* dcmdump */; };
+		5F6A427923FEF4B10017C59F /* dsr2html in Resources */ = {isa = PBXBuildFile; fileRef = 5F6A427623FEF4B00017C59F /* dsr2html */; };
+		5F6A427A23FEF4B10017C59F /* dicom.dic in Resources */ = {isa = PBXBuildFile; fileRef = 5F6A427723FEF4B00017C59F /* dicom.dic */; };
 		710EF1F31FD00E29000B555B /* Horos.h in Headers */ = {isa = PBXBuildFile; fileRef = 710EF1F11FD00E28000B555B /* Horos.h */; };
 		710EF1F41FD00E29000B555B /* Horos.m in Sources */ = {isa = PBXBuildFile; fileRef = 710EF1F21FD00E29000B555B /* Horos.m */; };
 		710EF1F61FD025BC000B555B /* Horos.m in Sources */ = {isa = PBXBuildFile; fileRef = 710EF1F21FD00E29000B555B /* Horos.m */; };
@@ -637,7 +640,6 @@
 		84ADF481115B622D00FE18B2 /* VTKStereoVRView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 84ADF46F115B622D00FE18B2 /* VTKStereoVRView.mm */; };
 		84ADF482115B622D00FE18B2 /* Window3DController+StereoVision.h in Headers */ = {isa = PBXBuildFile; fileRef = 84ADF470115B622D00FE18B2 /* Window3DController+StereoVision.h */; };
 		84ADF483115B622D00FE18B2 /* Window3DController+StereoVision.m in Sources */ = {isa = PBXBuildFile; fileRef = 84ADF471115B622D00FE18B2 /* Window3DController+StereoVision.m */; };
-		84B5EA4311A2BC0900193FDB /* dsr2html in Resources */ = {isa = PBXBuildFile; fileRef = 84B5EA4211A2BC0900193FDB /* dsr2html */; };
 		84C4510B10033B8100138F70 /* OSIWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C450F51003384000138F70 /* OSIWindow.m */; };
 		84C4510C10033B8200138F70 /* OSIWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 84C450F41003384000138F70 /* OSIWindow.h */; };
 		84C6329516B945CD00F0EA89 /* ContextCleaner.h in Headers */ = {isa = PBXBuildFile; fileRef = 84C6329416B945CD00F0EA89 /* ContextCleaner.h */; };
@@ -1463,8 +1465,6 @@
 		ABB7ADC7148CDDF2007D3C3F /* 2DMPRhorizontalPosition.tif in Resources */ = {isa = PBXBuildFile; fileRef = ABB7ADC4148CDDF2007D3C3F /* 2DMPRhorizontalPosition.tif */; };
 		ABB7ADC9148CDDF2007D3C3F /* 2DMPRnormalPosition.tif in Resources */ = {isa = PBXBuildFile; fileRef = ABB7ADC5148CDDF2007D3C3F /* 2DMPRnormalPosition.tif */; };
 		ABB7ADCB148CDDF2007D3C3F /* 2DMPRverticalPosition.tif in Resources */ = {isa = PBXBuildFile; fileRef = ABB7ADC6148CDDF2007D3C3F /* 2DMPRverticalPosition.tif */; };
-		ABBB63A70635874E00D9531F /* dcmdump in Resources */ = {isa = PBXBuildFile; fileRef = ABBB639D0635874D00D9531F /* dcmdump */; };
-		ABBB63A80635874E00D9531F /* dicom.dic in Resources */ = {isa = PBXBuildFile; fileRef = ABBB639E0635874D00D9531F /* dicom.dic */; };
 		ABBB64AD063587B200D9531F /* 2DBlending.tif in Resources */ = {isa = PBXBuildFile; fileRef = ABBB647B063587B200D9531F /* 2DBlending.tif */; };
 		ABBB64AE063587B200D9531F /* 3D.tif in Resources */ = {isa = PBXBuildFile; fileRef = ABBB647C063587B200D9531F /* 3D.tif */; };
 		ABBB64B2063587B200D9531F /* Axial.tif in Resources */ = {isa = PBXBuildFile; fileRef = ABBB6480063587B200D9531F /* Axial.tif */; };
@@ -3630,8 +3630,11 @@
 		59FB64771231101B00EBA136 /* mingpp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mingpp.h; path = Binaries/Ming/mingpp.h; sourceTree = "<group>"; };
 		59FB647D1231106000EBA136 /* ming.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ming.h; path = Binaries/Ming/ming.h; sourceTree = "<group>"; };
 		59FB652912312D8900EBA136 /* weasis */ = {isa = PBXFileReference; lastKnownFileType = folder; name = weasis; path = Binaries/weasis; sourceTree = SOURCE_ROOT; };
-		5F92185F23F45592000B8754 /* dcmprscu */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = dcmprscu; sourceTree = "<group>"; };
-		5F92186123F455A8000B8754 /* dcmpsprt */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = dcmpsprt; sourceTree = "<group>"; };
+		5F6A427123FEF4460017C59F /* dcmprscu */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = dcmprscu; path = Binaries/DCMTK/dcmprscu; sourceTree = SOURCE_ROOT; };
+		5F6A427223FEF4460017C59F /* dcmpsprt */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = dcmpsprt; path = Binaries/DCMTK/dcmpsprt; sourceTree = SOURCE_ROOT; };
+		5F6A427523FEF4AF0017C59F /* dcmdump */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = dcmdump; path = Binaries/DCMTK/dcmdump; sourceTree = SOURCE_ROOT; };
+		5F6A427623FEF4B00017C59F /* dsr2html */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = dsr2html; path = Binaries/DCMTK/dsr2html; sourceTree = SOURCE_ROOT; };
+		5F6A427723FEF4B00017C59F /* dicom.dic */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = dicom.dic; path = Binaries/DCMTK/dicom.dic; sourceTree = SOURCE_ROOT; };
 		710EF1F11FD00E28000B555B /* Horos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Horos.h; sourceTree = "<group>"; };
 		710EF1F21FD00E29000B555B /* Horos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Horos.m; sourceTree = "<group>"; };
 		71125D4A215376FC00EB0AA5 /* PathForImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PathForImage.h; sourceTree = "<group>"; };
@@ -3858,7 +3861,6 @@
 		84ADF46F115B622D00FE18B2 /* VTKStereoVRView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = VTKStereoVRView.mm; sourceTree = "<group>"; };
 		84ADF470115B622D00FE18B2 /* Window3DController+StereoVision.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Window3DController+StereoVision.h"; sourceTree = "<group>"; };
 		84ADF471115B622D00FE18B2 /* Window3DController+StereoVision.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Window3DController+StereoVision.m"; sourceTree = "<group>"; };
-		84B5EA4211A2BC0900193FDB /* dsr2html */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = dsr2html; sourceTree = "<group>"; };
 		84C450F41003384000138F70 /* OSIWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSIWindow.h; sourceTree = "<group>"; };
 		84C450F51003384000138F70 /* OSIWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSIWindow.m; sourceTree = "<group>"; };
 		84C6329416B945CD00F0EA89 /* ContextCleaner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ContextCleaner.h; path = Horos/Sources/ContextCleaner.h; sourceTree = SOURCE_ROOT; };
@@ -4314,8 +4316,6 @@
 		ABB7ADC4148CDDF2007D3C3F /* 2DMPRhorizontalPosition.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = 2DMPRhorizontalPosition.tif; sourceTree = "<group>"; };
 		ABB7ADC5148CDDF2007D3C3F /* 2DMPRnormalPosition.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = 2DMPRnormalPosition.tif; sourceTree = "<group>"; };
 		ABB7ADC6148CDDF2007D3C3F /* 2DMPRverticalPosition.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = 2DMPRverticalPosition.tif; sourceTree = "<group>"; };
-		ABBB639D0635874D00D9531F /* dcmdump */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = dcmdump; sourceTree = "<group>"; };
-		ABBB639E0635874D00D9531F /* dicom.dic */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; path = dicom.dic; sourceTree = "<group>"; };
 		ABBB647B063587B200D9531F /* 2DBlending.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = 2DBlending.tif; sourceTree = "<group>"; };
 		ABBB647C063587B200D9531F /* 3D.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = 3D.tif; sourceTree = "<group>"; };
 		ABBB6480063587B200D9531F /* Axial.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Axial.tif; sourceTree = "<group>"; };
@@ -7239,11 +7239,11 @@
 		ABBB639A0635874D00D9531F /* DCMTK */ = {
 			isa = PBXGroup;
 			children = (
-				ABBB639D0635874D00D9531F /* dcmdump */,
-				5F92186123F455A8000B8754 /* dcmpsprt */,
-				5F92185F23F45592000B8754 /* dcmprscu */,
-				ABBB639E0635874D00D9531F /* dicom.dic */,
-				84B5EA4211A2BC0900193FDB /* dsr2html */,
+				5F6A427523FEF4AF0017C59F /* dcmdump */,
+				5F6A427723FEF4B00017C59F /* dicom.dic */,
+				5F6A427623FEF4B00017C59F /* dsr2html */,
+				5F6A427123FEF4460017C59F /* dcmprscu */,
+				5F6A427223FEF4460017C59F /* dcmpsprt */,
 				CE9C73490B34946B0062FCCC /* echoscu */,
 			);
 			name = DCMTK;
@@ -10162,9 +10162,7 @@
 				71AD67621FC4248100A1E2F8 /* VR Muscles-Bones.plist in Resources */,
 				71AD674D1FC4248100A1E2F8 /* HotGreen.plist in Resources */,
 				CE289B1D0D00AF91004F0A93 /* Mail.scpt in Resources */,
-				ABBB63A70635874E00D9531F /* dcmdump in Resources */,
 				998B52E41AE0893D00D317CF /* Horos.icns in Resources */,
-				ABBB63A80635874E00D9531F /* dicom.dic in Resources */,
 				ABBB64AD063587B200D9531F /* 2DBlending.tif in Resources */,
 				ABBB64AE063587B200D9531F /* 3D.tif in Resources */,
 				ABBB64B2063587B200D9531F /* Axial.tif in Resources */,
@@ -10204,6 +10202,7 @@
 				ABDEBD6D063D693F005B99B4 /* minus.tif in Resources */,
 				AB726C87063F3AD500787EF6 /* QTExportVR.icns in Resources */,
 				AB92A3A90642B32D0048DC15 /* SmallLogo.tif in Resources */,
+				5F6A427323FEF4470017C59F /* dcmprscu in Resources */,
 				ABF09BBA0642FD220044FE6C /* Stereo.icns in Resources */,
 				AB0F20AD06460F7F0075465D /* Burner.icns in Resources */,
 				AB73E14A0649839300545980 /* Studies.tif in Resources */,
@@ -10225,6 +10224,7 @@
 				BFD4BFFE06F2A96900EC9A90 /* StackCursor.tif in Resources */,
 				BFD4BFFF06F2A96900EC9A90 /* ZoomCursor.tif in Resources */,
 				7E2BE3D10715DB9A0017898A /* route.tif in Resources */,
+				5F6A427923FEF4B10017C59F /* dsr2html in Resources */,
 				7E2BE3DA0715DBC50017898A /* cd.icns in Resources */,
 				71AD675C1FC4248100A1E2F8 /* Rainbow3.plist in Resources */,
 				7E2BE3E30715DBD40017898A /* GeneralPreferences.tif in Resources */,
@@ -10308,6 +10308,7 @@
 				AB9E05470B30107A00661F7E /* key.png in Resources */,
 				CE9C734A0B34946B0062FCCC /* echoscu in Resources */,
 				CE1366B50B41D0F200944876 /* mpeg2.tif in Resources */,
+				5F6A427423FEF4470017C59F /* dcmpsprt in Resources */,
 				CEDCFB3C0B4C4A4B00510ABD /* SyncSmall.tif in Resources */,
 				CEDCFB460B4C4E3900510ABD /* SyncSmallLocked.tif in Resources */,
 				CEBD8E5F0B675A75008FD772 /* Propagate.tif in Resources */,
@@ -10381,9 +10382,11 @@
 				A977ECAE0CD1F7E500C418D8 /* QRalreadyInDatabase.tif in Resources */,
 				ABE0D6940CDB1A4400F0494B /* iChatHelper.xib in Resources */,
 				ABE0D6A20CDB1B9E00F0494B /* browse2OsiriX_small.png in Resources */,
+				5F6A427A23FEF4B10017C59F /* dicom.dic in Resources */,
 				ABE0D6A30CDB1B9E00F0494B /* iChatIcon.png in Resources */,
 				841B0B3A18980EFF0007E5C5 /* 3DCutRead.png in Resources */,
 				ABE0D6A40CDB1B9E00F0494B /* iChatTheatre-English.html in Resources */,
+				5F6A427823FEF4B10017C59F /* dcmdump in Resources */,
 				71AD67641FC4256E00A1E2F8 /* Tiling1x1.pdf in Resources */,
 				ABE0D6A60CDB1B9E00F0494B /* shareFromMenu_small.png in Resources */,
 				ABE0D6A70CDB1B9E00F0494B /* shareFromVideoChatWindow_small.png in Resources */,
@@ -10403,7 +10406,6 @@
 				AB9693C00E823E3A00F09EEA /* ROIsAndKeys.tif in Resources */,
 				71AD675D1FC4248100A1E2F8 /* Ratio.plist in Resources */,
 				8440039A0E8CF99500A00EBD /* dciodvfy in Resources */,
-				5F92186023F45593000B8754 /* dcmprscu in Resources */,
 				71AD675F1FC4248100A1E2F8 /* Stern.plist in Resources */,
 				CE03A3CC0EA2AE0300951EF4 /* iPhone.tif in Resources */,
 				AB932A960EA38DEF0006DF1B /* CobbAngle.tif in Resources */,
@@ -10433,7 +10435,6 @@
 				A917F37E10F4F20C00344C5D /* CertSmallStd.tif in Resources */,
 				AB10FA231129302A009EB238 /* PopUpArrows.png in Resources */,
 				59BDF106117EE61E007F1F2C /* PreferencesWindow.xib in Resources */,
-				84B5EA4311A2BC0900193FDB /* dsr2html in Resources */,
 				CEBA5FE011B244EA005F3A0E /* SpectroIcon.jpg in Resources */,
 				5997896E11B7B402002DB107 /* PlusButton.png in Resources */,
 				5997897011B7B40B002DB107 /* MinusButton.png in Resources */,
@@ -10536,7 +10537,6 @@
 				A9B23D0715CFDF76000E47C3 /* Stack.pdf in Resources */,
 				99BA8A2821512F3500AF87B7 /* DICOMPrint in Resources */,
 				A9B23D0A15CFDF81000E47C3 /* Zoom.pdf in Resources */,
-				5F92186223F455A8000B8754 /* dcmpsprt in Resources */,
 				A9B23D0D15CFDF8E000E47C3 /* Rotate.pdf in Resources */,
 				A9B23D1015CFE3EB000E47C3 /* Rectangle.pdf in Resources */,
 				A9B23D1315CFE8B3000E47C3 /* Oval.pdf in Resources */,
@@ -13295,12 +13295,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				IBC_FLATTEN_NIBS = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "-fvisibility=default";
 				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				STRIP_INSTALLED_PRODUCT = YES;
 				STRIP_STYLE = debugging;
+				VALID_ARCHS = "i386 x86_64";
 			};
 			name = Release;
 		};
@@ -13311,7 +13313,7 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 20191211;
-				DEVELOPMENT_TEAM = WGC24S6NKV;
+				DEVELOPMENT_TEAM = KJRA9298ZQ;
 				ENABLE_HARDENED_RUNTIME = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -13406,6 +13408,7 @@
 		43E98D211A32BF6A001B9E51 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = Binaries;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Decompress/prefix.pch;
@@ -13433,7 +13436,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				DEVELOPMENT_TEAM = WGC24S6NKV;
+				DEVELOPMENT_TEAM = KJRA9298ZQ;
 				LIBRARY_SEARCH_PATHS = DICOMPrint;
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_NAME = DICOMPrint;
@@ -13445,7 +13448,7 @@
 		43E98D231A32BF6A001B9E51 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DEVELOPMENT_TEAM = WGC24S6NKV;
+				DEVELOPMENT_TEAM = KJRA9298ZQ;
 				DYLIB_COMPATIBILITY_VERSION = 1.0.0;
 				INFOPLIST_FILE = "$(SRCROOT)/API/Info.plist";
 				INSTALL_PATH = "@executable_path/../Frameworks";
@@ -13591,7 +13594,7 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 20191211;
-				DEVELOPMENT_TEAM = WGC24S6NKV;
+				DEVELOPMENT_TEAM = KJRA9298ZQ;
 				ENABLE_HARDENED_RUNTIME = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -13683,7 +13686,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IBC_FLATTEN_NIBS = NO;
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "-fvisibility=default";
 				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
 				OTHER_LDFLAGS = "-Wno-deprecated";
@@ -13691,6 +13694,7 @@
 				SKIP_INSTALL = YES;
 				STRIP_INSTALLED_PRODUCT = NO;
 				STRIP_STYLE = debugging;
+				VALID_ARCHS = "i386 x86_64";
 			};
 			name = Debug;
 		};
@@ -13711,7 +13715,7 @@
 		AB0F3A2E1046BD2D004129DD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DEVELOPMENT_TEAM = WGC24S6NKV;
+				DEVELOPMENT_TEAM = KJRA9298ZQ;
 				DYLIB_COMPATIBILITY_VERSION = 1.0.0;
 				INFOPLIST_FILE = "$(SRCROOT)/API/Info.plist";
 				INSTALL_PATH = "@executable_path/../Frameworks";
@@ -13725,6 +13729,7 @@
 		AB724FF40ADE6ECB00A212A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = Binaries;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Decompress/prefix.pch;
@@ -13759,7 +13764,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				DEVELOPMENT_TEAM = WGC24S6NKV;
+				DEVELOPMENT_TEAM = KJRA9298ZQ;
 				LIBRARY_SEARCH_PATHS = DICOMPrint;
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				ONLY_ACTIVE_ARCH = NO;

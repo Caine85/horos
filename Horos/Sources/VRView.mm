@@ -1948,6 +1948,10 @@ public:
 {
     if ( self = [super initWithFrame:frame])
     {
+        // HOROS-533: VTK 8.0.1 is not fully supporting Retina. Need to not "low" resolution" until VTK 8.1+ integrated.
+        //
+        [self setWantsBestResolutionOpenGLSurface: NO];
+        
         NSTrackingArea *cursorTracking = [[[NSTrackingArea alloc] initWithRect: [self visibleRect] options: (NSTrackingCursorUpdate | NSTrackingInVisibleRect | NSTrackingMouseEnteredAndExited | NSTrackingActiveInKeyWindow) owner: self userInfo: nil] autorelease];
         
         [self addTrackingArea: cursorTracking];
